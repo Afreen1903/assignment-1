@@ -1,4 +1,4 @@
-# ass-1
+# assignment-1
 # Delete the elements in an linked list whose sum is equal to zero
 class Node():
   def __init__(self,data):
