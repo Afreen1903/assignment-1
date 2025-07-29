@@ -71,9 +71,7 @@ class Node:
 		self.data = data
 		self.next = None
 
-# Reverses the linked list in groups
-# of size k and returns the pointer
-# to the new head node.
+# Reverses the linked list in groups of size k and returns the pointer to the new head node.
 
 
 def reverse(head, k):
@@ -143,8 +141,7 @@ print("\nReversed Linked list")
 printList(head)
 
 # Merge a linked list into another linked list at alternate positions.
-# Python program to merge a linked list into another at
-# alternate positions
+# Python program to merge a linked list into another at alternate positions
 
 class Node(object):
 	def __init__(self, data:int):
@@ -227,11 +224,9 @@ print("Modified second linked list:")
 llist2.printList()
 
 # In an array, Count Pairs with given sum
-# Python3 implementation of simple method
-# to find count of pairs with given sum.
+# Python3 implementation of simple method to find count of pairs with given sum.
 
-# Returns number of pairs in arr[0..n-1]
-# with sum equal to 'sum'
+# Returns number of pairs in arr[0..n-1] with sum equal to 'sum'
 
 
 def getPairsCount(arr, n, sum):
@@ -271,11 +266,9 @@ for i in range(arr_size):
 		print(i, " ")
 
 # Find the Kth largest and Kth smallest number in an array
-# Python3 program to find K'th smallest
-# element
+# Python3 program to find K'th smallest element
 
-# Function to return K'th smallest
-# element in a given array
+# Function to return K'th smallest element in a given array
 
 
 def kthSmallest(arr, N, K):
@@ -311,7 +304,6 @@ for e in arr:
 
 # Reverse a string using a stack data structure
 # Python program to reverse a string using stack
-
 # Function to create an empty stack.
 # It initializes size of stack as 0
 
@@ -333,15 +325,13 @@ def isEmpty(stack):
 	if size(stack) == 0:
 		return true
 
-# Function to add an item to stack .
-# It increases size by 1
+# Function to add an item to stack. It increases size by 1
 
 
 def push(stack, item):
 	stack.append(item)
 
-# Function to remove an item from stack.
-# It decreases size by 1
+# Function to remove an item from stack. It decreases size by 1
 
 
 def pop(stack):
@@ -350,7 +340,6 @@ def pop(stack):
 	return stack.pop()
 
 # A stack based function to reverse a string
-
 
 def reverse(string):
 	n = len(string)
@@ -372,7 +361,6 @@ def reverse(string):
 		string += pop(stack)
 
 	return string
-
 
 # Driver program to test above functions
 string = "GeeksQuiz"
@@ -448,8 +436,7 @@ if __name__ == '__main__':
 
 	
 # Implement a queue using the stack data structure
-# Python3 program to implement Queue using
-# two stacks with costly enQueue()
+# Python3 program to implement Queue using two stacks with costly enQueue()
 
 class Queue:
 	def __init__(self):
